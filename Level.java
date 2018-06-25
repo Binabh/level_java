@@ -96,6 +96,7 @@ public class Level{
 		System.out.println("Setup \t Backsight \t Foresight \t Rise/fall \t RL of Foresight Station");
 		for(int i = 1; i < data.length ; i++)
 			System.out.println(i+"\t  "+data[i].getBackSight()+"\t\t  "+data[i].getForesight()+"\t\t "+data[i].getHeightDifference()+"\t\t  "+data[i].getReducedLevel());
+		//Do loop is used as loopOrNot is false at first but the loop needz to run once
 		do{
 			//Asking user if they wish to save result.
 			System.out.print("Do you wish to save result? Enter Y to save or Any other key to exit ");
